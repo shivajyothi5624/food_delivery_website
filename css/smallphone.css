@@ -1,0 +1,31 @@
+ul{
+  display: flex;
+  flex-direction: column;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin:10px 0px;
+  padding: 0px 25px;
+  font-size: 1rem;
+}
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+}
+#home::before{
+  content: "";
+  background:url("../img/homebg.jpg") no-repeat center center/cover;
+  height: 780px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+}

@@ -32,6 +32,20 @@
   left: 0;
 }
 
+#home p{
+  font-size: 1rem;
+  margin:10px 0px;
+  text-align: center;
+}
+#home .btn{
+  padding: 8px 25px;
+  background-color: white;
+  border-radius: 32px;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+  margin-top: 28px;;
+}
 
 /* service */
 
